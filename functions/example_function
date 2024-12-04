@@ -2,4 +2,5 @@
 # This is an example function.
 # This will be executed when example_function is called in a Zsh session.
 
-print "executed function in ${functions_source[example_function]}"
+builtin emulate -L zsh
+print "executed function in ${functions_source[${funcstack[1]}]}"
