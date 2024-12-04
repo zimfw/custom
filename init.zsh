@@ -1,8 +1,4 @@
-#
-# Custom aliases/settings
-#
+# This is example code.
+# This will be executed when this module is initialized during Zsh startup.
 
-# any custom stuff should go here.
-# ensure that 'custom' exists in the zmodules array in your .zimrc
-
-
+print "executed code in ${0}"

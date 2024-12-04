@@ -1,4 +1,5 @@
-# this is an example function
-# running 'example_function' in a zsh session will execute the code below
+# vim:et sts=2 sw=2 ft=zsh
+# This is an example function.
+# This will be executed when example_function is called in a Zsh session.
 
-print "executed example function: ${ZIM_HOME}/modules/custom/functions/example_function!"
+print "executed function in ${functions_source[example_function]}"
